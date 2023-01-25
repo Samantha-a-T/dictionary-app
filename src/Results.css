@@ -1,0 +1,7 @@
+.Results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Results .first-column-first-row {
+  width: 400px;
+}
