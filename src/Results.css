@@ -1,11 +1,16 @@
 .Results {
   display: grid;
-    grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
 }
 .Results .first-column-first-row {
   width: 400px;
 }
-#meaning{
-grid-column-start: 2;
-grid-column-end:3;
+#meaning {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.Results .results-word {
+  text-align: center;
+  font-size: 60px;
 }

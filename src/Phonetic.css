@@ -1,13 +1,19 @@
-.Phonetic{
-    margin:10px 0;
+.Phonetic {
+  margin: 10px 0;
 }
-.Phonetic a{
-    background-color: rgba(0, 0, 0, 0.36);
-    padding: 10px;
-    border-radius: 30px;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: small;
+.Phonetic a {
+  background-color: rgba(0, 0, 0, 0.36);
+  padding: 10px 0;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: small;
+display: block;
+text-align: center;
 
+}
+.Phonetic .phonetic-text {
+  font-size: 60px;
+  text-align: center;
 }
