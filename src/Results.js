@@ -9,20 +9,22 @@ export default function Results(props) {
       <div className="Results">
         <section className="first-column-first-row">
           <h2 className="results-word">{props.results.word}</h2>
-          {props.results.phonetics.map(function (phonetic, index) {
-            return (
-              <div key={index}>
-                <Phonetic phonetic={phonetic} />
-              </div>
-            );
-          })}
+          {props.results.phonetics
+            .filter(function (phonetic) {
+              return phonetic.audio;
+            })
+            .map(function (phonetic, index) {
+              return (
+                <div key={index}>
+                  <Phonetic phonetic={phonetic} />
+                </div>
+              );
+            })}
         </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
             <section key={index} id="meaning">
-              <div>
-                <Meaning meaning={meaning} />
-              </div>
+              <div>{index < 3 ? <Meaning meaning={meaning} /> : null}</div>
             </section>
           );
         })}

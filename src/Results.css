@@ -11,7 +11,7 @@
 }
 #meaning {
   grid-column-start: 2;
-  grid-column-end: 3;
+  height: max-content;
 }
 
 .Results .results-word {
@@ -20,4 +20,11 @@
   justify-content: center;
   margin: 0;
   line-height: 15px;
+}
+
+.Results .definition-example {
+  font-weight: 600;
+  color: grey;
+  font-style: italic;
+  margin-top: 5px;
 }
