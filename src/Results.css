@@ -1,7 +1,11 @@
 .Results {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
 }
 .Results .first-column-first-row {
   width: 400px;
+}
+#meaning{
+grid-column-start: 2;
+grid-column-end:3;
 }
