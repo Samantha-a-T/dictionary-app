@@ -9,7 +9,7 @@ export default function Results(props) {
       <div className="Results">
         <section className="first-column-first-row">
           <h2 className="results-word">{props.results.word}</h2>
-          {props.results.phonetics
+          {props.results.phonetics[0]
             .filter(function (phonetic) {
               return phonetic.audio;
             })
