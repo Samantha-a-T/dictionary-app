@@ -1,18 +1,18 @@
 .Results {
-padding-bottom: 450px;
+  padding-bottom: 450px;
 }
 .Results .first-column-first-row {
   height: 400px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   float: left;
   margin: 5px;
 }
-#meaning{
-    float: right;
-    height: max-content;
-    margin: 5px;
+#meaning {
+  float: right;
+  height: max-content;
+  margin: 5px;
 }
 
 .Results .results-word {
@@ -27,4 +27,22 @@ padding-bottom: 450px;
   color: grey;
   font-style: italic;
   margin-top: 5px;
+}
+
+@media (max-width: 991px) {
+  .Results {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .Results .first-column-first-row {
+    margin: 0 auto;
+  }
+  #meaning {
+    margin: 0 auto;
+  }
+  .Results .results-word {
+    font-size: 40px;
+  }
 }

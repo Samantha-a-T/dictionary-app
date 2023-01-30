@@ -12,3 +12,10 @@
  line-height: 100px;
 
 }
+
+@media (max-width: 991px) {
+.Phonetic .phonetic-text {
+font-size:40px;
+}
+
+}

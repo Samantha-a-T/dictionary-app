@@ -12,3 +12,20 @@
   font-size: 24px;
   text-align: center;
 }
+
+
+@media (max-width: 991px) {
+  .Dictionary section{
+ width: 700px;
+  } 
+
+}
+@media (max-width: 767px) {
+  .Dictionary section{
+ width: 516px;
+  } 
+
+  .Dictionary .dictionary-search {
+  font-size: 12px;
+  }
+}
