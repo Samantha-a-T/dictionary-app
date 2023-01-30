@@ -1,5 +1,5 @@
 .Results {
-padding-bottom: 1000px;
+padding-bottom: 450px;
 }
 .Results .first-column-first-row {
   height: 400px;
@@ -7,9 +7,12 @@ padding-bottom: 1000px;
   flex-direction: column; 
   justify-content: center;
   float: left;
+  margin: 5px;
 }
 #meaning{
     float: right;
+    height: max-content;
+    margin: 5px;
 }
 
 .Results .results-word {
