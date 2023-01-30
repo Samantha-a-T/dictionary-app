@@ -55,7 +55,7 @@ export default function Dictionary(props) {
         </form>
         <div className="dictionary-wrapper">
           <Results results={results} />
-          <Photos photos={photos} />
+          <Photos photos={photos} keyword={keyword}/>
         </div>
       </div>
     );
