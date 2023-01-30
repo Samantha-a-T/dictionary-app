@@ -14,9 +14,17 @@ export default function Results(props) {
               return phonetic.audio;
             })
             .map(function (phonetic, index) {
+              let phoneticData;
+              if (props.results.phonetics[0]?.text) {
+                phoneticData = phonetic;
+              } else if (props.results.phonetics[1]?.text) {
+                phoneticData = props.results.phonetics[1];
+              } else {
+                phoneticData = phonetic;
+              }
               return (
                 <div key={index}>
-                 { index < 1 ? <Phonetic phonetic={phonetic} /> : null}
+                  {index < 1 ? <Phonetic phonetic={phoneticData} /> : null}
                 </div>
               );
             })}
