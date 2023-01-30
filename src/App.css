@@ -14,9 +14,8 @@
   color: #61dafb;
 }
 
-
-@media (max-width: 991px) {
-.App{
+@media (max-width: 993px) {
+  .App {
     margin: 0 auto;
+  }
 }
-  } 

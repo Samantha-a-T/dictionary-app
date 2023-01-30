@@ -13,19 +13,25 @@
   text-align: center;
 }
 
-
-@media (max-width: 991px) {
-  .Dictionary section{
- width: 700px;
-  } 
-
+@media (max-width: 993px) {
+  .Dictionary section {
+    width: 700px;
+  }
 }
 @media (max-width: 767px) {
-  .Dictionary section{
- width: 516px;
-  } 
+  .Dictionary section {
+    width: 516px;
+  }
 
   .Dictionary .dictionary-search {
-  font-size: 12px;
+    font-size: 12px;
   }
+}
+
+
+@media (max-width: 550px) {
+  .Dictionary section {
+    width: 300px;
+  }
+
 }

@@ -7,9 +7,26 @@ function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
-          <Dictionary  defaultKeyword="sunset"/>
+          <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer> Coded by Samantha Thibault</footer>
+        <footer>
+          <a
+            href="https://github.com/Samantha-a-T/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          by{" "}
+          <a
+            href="https://samantha-thibault.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            
+            Samantha Thibault
+          </a>
+        </footer>
       </div>
     </div>
   );
